@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title description">
+  <title id="title">Apple UX/UI — design decisions, grounded in principles.</title>
+  <desc id="description">An original illustration of a note editor with saved work and an Undo action after removing a paragraph. A practical design skill with eight principles and twelve reference guides.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F8FB"/>
+      <stop offset="1" stop-color="#F0F1F6"/>
+    </linearGradient>
+    <radialGradient id="wash">
+      <stop offset="0" stop-color="#E0E2F7" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#E0E2F7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="20" flood-color="#24284A" flood-opacity=".07"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#24284A" flood-opacity=".03"/>
+    </filter>
+    <filter id="toast-shadow" x="-20%" y="-50%" width="140%" height="220%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#24284A" flood-opacity=".10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="600" rx="24" fill="url(#paper)"/>
+  <ellipse cx="931" cy="283" rx="330" ry="282" fill="url(#wash)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="64" y="89" font-size="20" font-weight="600" letter-spacing="1.8" fill="#555E72">A PRACTICAL DESIGN SKILL</text>
+    <text x="60" y="205" font-size="68" font-weight="650" letter-spacing="-3" fill="#202537">Apple UX/UI</text>
+    <text x="64" y="267" font-size="30" font-weight="400" letter-spacing="-.5" fill="#4E576B">Design decisions,</text>
+    <text x="64" y="308" font-size="30" font-weight="400" letter-spacing="-.5" fill="#4E576B">grounded in principles.</text>
+
+    <path d="M64 375H112" stroke="#4960BB" stroke-width="4" stroke-linecap="round"/>
+    <text x="64" y="429" font-size="23" fill="#343C50">From a clear purpose</text>
+    <text x="64" y="461" font-size="23" fill="#343C50">to the details people feel.</text>
+    <text x="64" y="542" font-size="20" font-weight="500" fill="#555E72">8 principles · 12 reference guides</text>
+
+    <!-- Original illustrative interface; not a screenshot or an interactive control. -->
+    <rect x="635" y="90" width="493" height="380" rx="24" fill="#FFF" stroke="#DDE0EA" filter="url(#card-shadow)"/>
+    <path d="M636 163H1127" stroke="#E7E9EF"/>
+    <path d="M666 119H682M666 126H678M666 133H682" stroke="#555E72" stroke-width="2" stroke-linecap="round"/>
+    <text x="699" y="134" font-size="21" font-weight="600" fill="#4E576B">Notes</text>
+    <path d="M1081 123L1089 131L1102 116" fill="none" stroke="#4E576B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="672" y="223" font-size="33" font-weight="650" letter-spacing="-.8" fill="#202537">Your next idea.</text>
+    <text x="672" y="270" font-size="23" fill="#555E72">A place to think, change,</text>
+    <text x="672" y="303" font-size="23" fill="#555E72">and start again.</text>
+    <path d="M673 337H1038M673 354H940" stroke="#E1E4EB" stroke-width="5" stroke-linecap="round"/>
+    <path d="M636 396H1127" stroke="#E7E9EF"/>
+    <circle cx="678" cy="432" r="10" fill="#F0F2F7" stroke="#778096" stroke-width="1.5"/>
+    <path d="M674 432L677 435L682 429" fill="none" stroke="#4E576B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="698" y="439" font-size="19" fill="#555E72">Saved to this device</text>
+
+    <rect x="724" y="345" width="367" height="76" rx="16" fill="#FDFDFE" stroke="#D5DAE7" filter="url(#toast-shadow)"/>
+    <text x="745" y="390" font-size="21" font-weight="500" letter-spacing="-.3" fill="#343C50">Paragraph removed</text>
+    <path d="M990 363V403" stroke="#E3E6EE"/>
+    <text x="1039" y="390" text-anchor="middle" font-size="21" font-weight="600" fill="#3555A6">Undo</text>
+
+    <text x="645" y="518" font-size="21" font-weight="650" fill="#343C50">Agency, in practice.</text>
+    <text x="645" y="549" font-size="20" fill="#555E72">Make recovery easy to find.</text>
+  </g>
+</svg>
